@@ -1,7 +1,21 @@
 import React from "react";
+import { ReactComponent as Map } from "../img/map.svg";
+import { Layout, PageHeader } from "antd";
 
 function App() {
-  return <div>hello</div>;
+  return (
+    <Layout style={{ backgroundColor: "white" }}>
+      <Layout.Header style={{ backgroundColor: "white" }}>
+        <PageHeader
+          title="Corona Map"
+          subTitle="aktuelle Corona-Fälle in Österreich"
+        ></PageHeader>
+      </Layout.Header>
+      <Layout.Content style={{ backgroundColor: "white", margin: 40 }}>
+        <Map></Map>
+      </Layout.Content>
+    </Layout>
+  );
 }
 
 export default App;
