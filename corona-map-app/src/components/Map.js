@@ -19,7 +19,7 @@ const initialViewState = {
 };
 
 export default function ({ data }) {
-  let [hovered, setHovered] = useState({});
+  let [hovered, setHovered] = useState();
   let [{ pointerx, pointery }, setPosition] = useState({});
 
   //tooltip
@@ -32,7 +32,7 @@ export default function ({ data }) {
             zIndex: 100,
             pointerEvents: "none",
             left: pointerx,
-            top: pointerx,
+            top: pointery,
           }}
         >
           <strong>{hovered.name}</strong> hat derzeit{" "}
@@ -57,7 +57,7 @@ export default function ({ data }) {
   let hex = new HexagonLayer({
     id: "hexagon",
     data,
-    radius: 2000,
+    radius: 4000,
     elevationScale: 100,
     opacity: 0.7,
     extruded: true,
