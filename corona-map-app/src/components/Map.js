@@ -1,18 +1,30 @@
 import React from "react";
-import { ReactComponent as Map } from "../img/map.svg";
-import { useCasesPerDistrict } from "../hooks";
+import { StaticMap } from "react-map-gl";
+import DeckGL from "@deck.gl/react";
+import { mapboxApiAccessToken } from "../config";
 
-export default function () {
-  let { cases, loading } = useCasesPerDistrict();
+export default function ({ layers }) {
+  const austria = {
+    lng: 14.550072,
+    lat: 47.516232,
+  };
+  //center of austria
+  const initialViewState = {
+    longitude: austria.lng,
+    latitude: austria.lat,
+    zoom: 6,
+  };
   return (
-    <div>
-      {cases?.map((element) => {
-        return (
-          <pre key={element.bezirk}>
-            {element.Bezirk + " hat " + element.Anzahl + " fälle"}
-          </pre>
-        );
-      })}
-    </div>
+    <DeckGL
+      initialViewState={initialViewState}
+      controller={true}
+      layers={layers}
+    >
+      <StaticMap
+        viewport={initialViewState}
+        mapboxApiAccessToken={mapboxApiAccessToken}
+      ></StaticMap>
+      ;
+    </DeckGL>
   );
 }
