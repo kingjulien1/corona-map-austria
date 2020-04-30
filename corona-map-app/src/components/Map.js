@@ -24,7 +24,6 @@ export default function ({ layers }) {
         viewport={initialViewState}
         mapboxApiAccessToken={mapboxApiAccessToken}
       ></StaticMap>
-      ;
     </DeckGL>
   );
 }

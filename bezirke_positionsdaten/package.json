@@ -1,0 +1,17 @@
+{
+  "name": "bezirks_positionsdaten",
+  "version": "1.0.0",
+  "description": "berechnung der Längen- und Breitengrade der einzelnen Bezirke",
+  "main": "index.js",
+  "repository": "https://github.com/julian-blaschke/beim-bauern/blob/master/beim-bauern-web-app/src/hooks/index.js",
+  "author": "Julian Blaschke",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "papaparse": "^5.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
