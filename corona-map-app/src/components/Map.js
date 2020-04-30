@@ -1,11 +1,17 @@
 import React from "react";
-import { StaticMap } from "react-map-gl";
+import ReactMapGl from "react-map-gl";
 import DeckGL from "@deck.gl/react";
+import { HeatmapLayer } from "@deck.gl/aggregation-layers";
 import { mapboxApiAccessToken } from "../config";
-import { useHexLayer } from "./Layers/LineLayer";
 
-export default function () {
-  useHexLayer();
+export default function ({ data }) {
+  let heatmap = new HeatmapLayer({
+    id: "heat",
+    data,
+    opacity: 0.7,
+    getPosition: (d) => [parseFloat(d.lon), parseFloat(d.lat)],
+    getWeight: (d) => d.Anzahl / 100,
+  });
 
   const austria = {
     lng: 14.550072,
@@ -16,13 +22,16 @@ export default function () {
     longitude: austria.lng,
     latitude: austria.lat,
     zoom: 6,
+    pitch: 0,
+    bearing: 0,
   };
   return (
-    <DeckGL initialViewState={initialViewState} controller={true}>
-      <StaticMap
-        viewport={initialViewState}
-        mapboxApiAccessToken={mapboxApiAccessToken}
-      ></StaticMap>
+    <DeckGL
+      initialViewState={initialViewState}
+      controller={true}
+      layers={[heatmap]}
+    >
+      <ReactMapGl mapboxApiAccessToken={mapboxApiAccessToken}></ReactMapGl>
     </DeckGL>
   );
 }

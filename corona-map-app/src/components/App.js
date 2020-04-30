@@ -1,21 +1,11 @@
 import React from "react";
 import Map from "./Map";
-import { Layout, PageHeader } from "antd";
+import { Layout, PageHeader, Spin } from "antd";
+import { useCasesPerDistrict } from "../hooks";
 
 function App() {
-  return (
-    <Layout style={{ backgroundColor: "white" }}>
-      <Layout.Header style={{ backgroundColor: "white" }}>
-        <PageHeader
-          title="Corona Map"
-          subTitle="aktuelle Corona-Fälle in Österreich"
-        ></PageHeader>
-      </Layout.Header>
-      <Layout.Content style={{ backgroundColor: "white", margin: 40 }}>
-        <Map></Map>
-      </Layout.Content>
-    </Layout>
-  );
+  let { cases, loading } = useCasesPerDistrict();
+  return loading ? <Spin></Spin> : <Map data={cases}></Map>;
 }
 
 export default App;

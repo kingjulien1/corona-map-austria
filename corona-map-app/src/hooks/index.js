@@ -15,7 +15,7 @@ export const useCasesPerDistrict = function () {
       header: true,
       complete: function (results) {
         //map with location values
-        let withLocations = results.data.map(function (district, index) {
+        let withLocations = results.data.map((district, index) => {
           if (index < 93) {
             return {
               ...district,
@@ -24,8 +24,9 @@ export const useCasesPerDistrict = function () {
             };
           }
         });
-        setLoading(false);
+        withLocations.splice(93);
         setCases(withLocations);
+        setLoading(false);
       },
     });
   }, []);
