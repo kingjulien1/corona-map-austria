@@ -1,37 +1,82 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactMapGl from "react-map-gl";
 import DeckGL from "@deck.gl/react";
-import { HeatmapLayer } from "@deck.gl/aggregation-layers";
+import { HeatmapLayer, HexagonLayer } from "@deck.gl/aggregation-layers";
 import { mapboxApiAccessToken } from "../config";
 
+const austria = {
+  lng: 14.550072,
+  lat: 47.516232,
+};
+//center of austria
+const initialViewState = {
+  longitude: austria.lng,
+  latitude: austria.lat,
+  zoom: 6,
+  //tilt
+  pitch: 20,
+  bearing: 0,
+};
+
 export default function ({ data }) {
+  let [hovered, setHovered] = useState({});
+  let [{ pointerx, pointery }, setPosition] = useState({});
+
+  //tooltip
+  function renderTooltip() {
+    return (
+      hovered && (
+        <div
+          style={{
+            position: "absolute",
+            zIndex: 100,
+            pointerEvents: "none",
+            left: pointerx,
+            top: pointery,
+          }}
+        >
+          <strong>{hovered.name}</strong> hat derzeit{" "}
+          <strong>{hovered.cases}</strong>
+          Corona Erkrankte.
+        </div>
+      )
+    );
+  }
+
+  //heatmap
   let heatmap = new HeatmapLayer({
-    id: "heat",
+    id: "heatmap",
     data,
-    opacity: 0.7,
     getPosition: (d) => [parseFloat(d.lon), parseFloat(d.lat)],
-    getWeight: (d) => d.Anzahl / 100,
+    getWeight: (d) => parseInt(d.cases),
   });
 
-  const austria = {
-    lng: 14.550072,
-    lat: 47.516232,
-  };
-  //center of austria
-  const initialViewState = {
-    longitude: austria.lng,
-    latitude: austria.lat,
-    zoom: 6,
-    pitch: 0,
-    bearing: 0,
-  };
+  //hexagon layer
+  let hex = new HexagonLayer({
+    id: "hexagon",
+    data,
+    radius: 2000,
+    elevationScale: 100,
+    opacity: 0.7,
+    extruded: true,
+    getPosition: (d) => [parseFloat(d.lon), parseFloat(d.lat)],
+    getElevationWeight: (d) => parseInt(d.cases),
+    pickable: true,
+    onHover: (info) => {
+      setPosition({ pointerx: info?.x, pointery: info?.y });
+      setHovered(info?.object?.points[0]);
+    },
+  });
+
   return (
     <DeckGL
       initialViewState={initialViewState}
       controller={true}
-      layers={[heatmap]}
+      layers={[hex, heatmap]}
     >
-      <ReactMapGl mapboxApiAccessToken={mapboxApiAccessToken}></ReactMapGl>
+      <ReactMapGl mapboxApiAccessToken={mapboxApiAccessToken}>
+        {renderTooltip()}
+      </ReactMapGl>
     </DeckGL>
   );
 }

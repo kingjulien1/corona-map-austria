@@ -18,7 +18,8 @@ export const useCasesPerDistrict = function () {
         let withLocations = results.data.map((district, index) => {
           if (index < 93) {
             return {
-              ...district,
+              cases: district.Anzahl,
+              name: district.Bezirk,
               lat: locations[index].lat,
               lon: locations[index].lon,
             };
