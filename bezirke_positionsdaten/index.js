@@ -45,5 +45,5 @@ Promise.all([
   let locations = bezirkeWithCases.map(function (bezirk) {
     return { lat: bezirk.lat, lon: bezirk.lon };
   });
-  console.log(locations);
+  console.log(bezirkeWithCases.length);
 });

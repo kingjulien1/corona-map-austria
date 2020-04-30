@@ -3,9 +3,6 @@ import ReactDOM from "react-dom";
 import App from "./components/App";
 import "./styles/App.css";
 import * as serviceWorker from "./serviceWorker";
-import { convert } from "./components/data/districtLocationData";
-
-convert();
 
 ReactDOM.render(
   <React.StrictMode>
