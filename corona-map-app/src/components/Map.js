@@ -32,7 +32,7 @@ export default function ({ data }) {
             zIndex: 100,
             pointerEvents: "none",
             left: pointerx,
-            top: pointery,
+            top: pointerx,
           }}
         >
           <strong>{hovered.name}</strong> hat derzeit{" "}
@@ -47,6 +47,8 @@ export default function ({ data }) {
   let heatmap = new HeatmapLayer({
     id: "heatmap",
     data,
+    intensity: 5,
+    radiusPixels: 70,
     getPosition: (d) => [parseFloat(d.lon), parseFloat(d.lat)],
     getWeight: (d) => parseInt(d.cases),
   });
@@ -60,7 +62,8 @@ export default function ({ data }) {
     opacity: 0.7,
     extruded: true,
     getPosition: (d) => [parseFloat(d.lon), parseFloat(d.lat)],
-    getElevationWeight: (d) => parseInt(d.cases),
+    getElevationValue: (d) => parseInt(d[0].cases),
+    getColorValue: (d) => parseInt(d[0].cases),
     pickable: true,
     onHover: (info) => {
       setPosition({ pointerx: info?.x, pointery: info?.y });
