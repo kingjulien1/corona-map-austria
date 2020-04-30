@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as Map } from "../img/map.svg";
+import Map from "./Map";
 import { Layout, PageHeader } from "antd";
 
 function App() {
