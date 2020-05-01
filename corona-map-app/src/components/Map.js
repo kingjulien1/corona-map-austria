@@ -35,10 +35,8 @@ export default function ({ data }) {
             top: pointery + 40,
           }}
         >
-          <strong>{hovered.name}</strong>
-          hat insgesamt
-          <strong>{hovered.cases}</strong>
-          Fälle.
+          <strong>{hovered.name}</strong> hat insgesamt{" "}
+          <strong>{hovered.cases}</strong> Fälle.
         </div>
       )
     );
