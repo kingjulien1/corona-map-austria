@@ -32,12 +32,13 @@ export default function ({ data }) {
             zIndex: 100,
             pointerEvents: "none",
             left: pointerx,
-            top: pointery,
+            top: pointery + 40,
           }}
         >
-          <strong>{hovered.name}</strong> hat derzeit{" "}
+          <strong>{hovered.name}</strong>
+          hat insgesamt
           <strong>{hovered.cases}</strong>
-          Corona Erkrankte.
+          Fälle.
         </div>
       )
     );
