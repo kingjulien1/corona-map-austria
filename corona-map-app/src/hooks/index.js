@@ -10,7 +10,7 @@ export const useCasesPerDistrict = function () {
   const url = "https://info.gesundheitsministerium.at/data/Bezirke.csv";
 
   useEffect(() => {
-    Papa.parse(url, {
+    Papa.parse(proxyurl + url, {
       download: true,
       header: true,
       complete: function (results) {
