@@ -76,9 +76,8 @@ export default function ({ data }) {
       controller={true}
       layers={[hex, heatmap]}
     >
-      <ReactMapGl mapboxApiAccessToken={mapboxApiAccessToken}>
-        {renderTooltip()}
-      </ReactMapGl>
+      <div>{renderTooltip()}</div>
+      <ReactMapGl mapboxApiAccessToken={mapboxApiAccessToken}></ReactMapGl>
     </DeckGL>
   );
 }
