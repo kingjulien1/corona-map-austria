@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import ReactMapGl from "react-map-gl";
 import DeckGL from "@deck.gl/react";
 import { HeatmapLayer, HexagonLayer } from "@deck.gl/aggregation-layers";
-import { mapboxApiAccessToken } from "../config";
 
 const austria = {
   lng: 14.550072,
@@ -77,7 +76,9 @@ export default function ({ data }) {
       layers={[hex, heatmap]}
     >
       <div>{renderTooltip()}</div>
-      <ReactMapGl mapboxApiAccessToken={mapboxApiAccessToken}></ReactMapGl>
+      <ReactMapGl
+        mapboxApiAccessToken={`${process.env.REACT_APP_MAPBOX_API_TOKEN}`}
+      ></ReactMapGl>
     </DeckGL>
   );
 }
