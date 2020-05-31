@@ -25,6 +25,7 @@ export const useCasesPerDistrict = function () {
             };
           }
         });
+        console.log(withLocations);
         withLocations.splice(93);
         setCases(withLocations);
         setLoading(false);
