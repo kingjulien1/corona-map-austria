@@ -10,7 +10,7 @@ function App() {
     <div>
       <PageHeader
         title="Corona Map"
-        subTitle="aktuelle Fälle je Bezirk"
+        subTitle="Fälle insgesamt, je Bezirk"
         style={{ zIndex: 5, backgroundColor: "#ffffff8c" }}
         extra={[
           <Tooltip title="zum Repository" placement="bottomLeft">
