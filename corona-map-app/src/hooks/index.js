@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import locations from "../data/DistrictLocationValues";
 import Papa from "papaparse";
+import locations from "../data/output.json";
 
 export const useCasesPerDistrict = function () {
   const [cases, setCases] = useState();
@@ -15,17 +15,12 @@ export const useCasesPerDistrict = function () {
       header: true,
       complete: function (results) {
         //map with location values
-        let withLocations = results.data.map((district, index) => {
+        let withLocations = results.data.map(function (district, index) {
           if (index < 93) {
-            return {
-              cases: district.Anzahl,
-              name: district.Bezirk,
-              lat: locations[index].lat,
-              lon: locations[index].lon,
-            };
+            return { ...locations[index], cases: district.Anzahl };
           }
+          return null;
         });
-        console.log(withLocations);
         withLocations.splice(93);
         setCases(withLocations);
         setLoading(false);

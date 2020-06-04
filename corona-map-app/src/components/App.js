@@ -1,6 +1,6 @@
 import React from "react";
 import Map from "./Map";
-import { PageHeader, Spin, Tooltip, Layout } from "antd";
+import { PageHeader, Spin, Tooltip } from "antd";
 import { useCasesPerDistrict } from "../hooks";
 import { GithubOutlined, AreaChartOutlined } from "@ant-design/icons";
 
@@ -13,7 +13,11 @@ function App() {
         subTitle="Fälle insgesamt, je Bezirk"
         style={{ zIndex: 5, backgroundColor: "#ffffff8c" }}
         extra={[
-          <Tooltip title="zum Repository" placement="bottomLeft">
+          <Tooltip
+            title="zum Repository"
+            placement="bottomLeft"
+            key="tooltip:repo"
+          >
             <a href="https://github.com/julian-blaschke/corona-map-austria">
               <GithubOutlined></GithubOutlined>
             </a>
@@ -21,6 +25,7 @@ function App() {
           <Tooltip
             title="zur Datenquelle (Österreichisches COVID-19 Open Data Informationsportal)"
             placement="bottomLeft"
+            key="tooltip:source"
           >
             <a href="https://www.data.gv.at/covid-19/">
               <AreaChartOutlined />
