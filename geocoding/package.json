@@ -7,7 +7,12 @@
   "author": "Julian Blaschke",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "jsonfile": "^6.0.1",
     "node-geocoder": "^3.27.0"
   }
 }

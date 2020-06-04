@@ -1,0 +1,624 @@
+[
+  {
+    "_id": 0,
+    "name": "Amstetten",
+    "lat": 48.12502,
+    "lon": 14.86934,
+    "city": "Amstetten"
+  },
+  {
+    "_id": 1,
+    "name": "Baden",
+    "lat": 48.00214,
+    "lon": 16.23091,
+    "city": "Baden bei Wien",
+    "zipcode": "2500"
+  },
+  {
+    "_id": 2,
+    "name": "Bludenz",
+    "lat": 47.15991,
+    "lon": 9.808209999999999,
+    "city": "Bludenz"
+  },
+  {
+    "_id": 3,
+    "name": "Braunau am Inn",
+    "lat": 48.25573,
+    "lon": 13.04432,
+    "city": "Braunau am Inn"
+  },
+  {
+    "_id": 4,
+    "name": "Bregenz",
+    "lat": 47.50075,
+    "lon": 9.74231,
+    "city": "Bregenz"
+  },
+  {
+    "_id": 5,
+    "name": "Bruck an der Leitha",
+    "lat": 48.02375,
+    "lon": 16.77534,
+    "city": "Bruck an der Leitha"
+  },
+  {
+    "_id": 6,
+    "name": "Bruck-Mürzzuschlag",
+    "lat": 47.59689230000001,
+    "lon": 15.4054145
+  },
+  {
+    "_id": 7,
+    "name": "Deutschlandsberg",
+    "lat": 46.81595000000001,
+    "lon": 15.21338,
+    "city": "Deutschlandsberg"
+  },
+  {
+    "_id": 8,
+    "name": "Dornbirn",
+    "lat": 47.4124,
+    "lon": 9.743789999999999,
+    "city": "Dornbirn",
+    "zipcode": "6850"
+  },
+  {
+    "_id": 9,
+    "name": "Eferding",
+    "lat": 48.30878999999999,
+    "lon": 14.02023,
+    "city": "Eferding",
+    "zipcode": "4070"
+  },
+  {
+    "_id": 10,
+    "name": "Eisenstadt(Stadt)",
+    "lat": 47.84637,
+    "lon": 16.52796,
+    "city": "Eisenstadt"
+  },
+  {
+    "_id": 11,
+    "name": "Eisenstadt-Umgebung",
+    "lat": 47.88080189999999,
+    "lon": 16.6721389
+  },
+  {
+    "_id": 12,
+    "name": "Feldkirch",
+    "lat": 47.24128,
+    "lon": 9.601899999999999,
+    "city": "Feldkirch"
+  },
+  {
+    "_id": 13,
+    "name": "Feldkirchen",
+    "lat": 46.7267407,
+    "lon": 14.0888806,
+    "city": "Feldkirchen in Kärnten"
+  },
+  {
+    "_id": 14,
+    "name": "Freistadt",
+    "lat": 48.50217,
+    "lon": 14.50201,
+    "city": "Freistadt",
+    "zipcode": "4240"
+  },
+  {
+    "_id": 15,
+    "name": "Gänserndorf",
+    "lat": 48.34067,
+    "lon": 16.71754,
+    "city": "Gänserndorf",
+    "zipcode": "2230"
+  },
+  {
+    "_id": 16,
+    "name": "Gmünd",
+    "lat": 48.77156,
+    "lon": 14.98511,
+    "city": "Gmünd"
+  },
+  {
+    "_id": 17,
+    "name": "Gmunden",
+    "lat": 47.91839,
+    "lon": 13.79933,
+    "city": "Gmunden",
+    "zipcode": "4810"
+  },
+  {
+    "_id": 18,
+    "name": "Graz(Stadt)",
+    "lat": 47.070714,
+    "lon": 15.439504,
+    "city": "Graz"
+  },
+  { "_id": 19, "name": "Graz-Umgebung", "lat": 47.1657838, "lon": 15.333565 },
+  {
+    "_id": 20,
+    "name": "Grieskirchen",
+    "lat": 48.23587,
+    "lon": 13.82617,
+    "city": "Grieskirchen"
+  },
+  {
+    "_id": 21,
+    "name": "Güssing",
+    "lat": 47.05932,
+    "lon": 16.32449,
+    "city": "Güssing"
+  },
+  {
+    "_id": 22,
+    "name": "Hallein",
+    "lat": 47.68248000000001,
+    "lon": 13.10037,
+    "city": "Hallein"
+  },
+  {
+    "_id": 23,
+    "name": "Hartberg-Fürstenfeld",
+    "lat": 47.2815,
+    "lon": 15.97302
+  },
+  {
+    "_id": 24,
+    "name": "Hermagor",
+    "lat": 46.62739209999999,
+    "lon": 13.3711996,
+    "city": "Hermagor-Pressegger See",
+    "zipcode": "9620"
+  },
+  {
+    "_id": 25,
+    "name": "Hollabrunn",
+    "lat": 48.5625696,
+    "lon": 16.0787228,
+    "city": "Hollabrunn",
+    "zipcode": "2020"
+  },
+  {
+    "_id": 26,
+    "name": "Horn",
+    "lat": 48.66607,
+    "lon": 15.65716,
+    "city": "Horn"
+  },
+  {
+    "_id": 27,
+    "name": "Imst",
+    "lat": 47.24013,
+    "lon": 10.73954,
+    "city": "Imst"
+  },
+  { "_id": 28, "name": "Innsbruck-Land", "lat": 47.1217918, "lon": 11.342985 },
+  {
+    "_id": 29,
+    "name": "Innsbruck-Stadt",
+    "lat": 47.2692124,
+    "lon": 11.4041024,
+    "city": "Innsbruck"
+  },
+  {
+    "_id": 30,
+    "name": "Jennersdorf",
+    "lat": 46.93712,
+    "lon": 16.12961,
+    "city": "Jennersdorf"
+  },
+  {
+    "_id": 31,
+    "name": "Kirchdorf an der Krems",
+    "lat": 47.90626,
+    "lon": 14.11983,
+    "city": "Kirchdorf an der Krems"
+  },
+  {
+    "_id": 32,
+    "name": "Kitzbühel",
+    "lat": 47.4492375,
+    "lon": 12.3925407,
+    "city": "Kitzbuhel",
+    "zipcode": "6370"
+  },
+  {
+    "_id": 33,
+    "name": "Klagenfurt Land",
+    "lat": 46.5183927,
+    "lon": 14.2362941
+  },
+  {
+    "_id": 34,
+    "name": "Klagenfurt Stadt",
+    "lat": 46.6364598,
+    "lon": 14.3122246,
+    "city": "Klagenfurt"
+  },
+  {
+    "_id": 35,
+    "name": "Korneuburg",
+    "lat": 48.34472,
+    "lon": 16.3314901,
+    "city": "Korneuburg",
+    "zipcode": "2100"
+  },
+  {
+    "_id": 36,
+    "name": "Krems an der Donau(Stadt)",
+    "lat": 48.40999,
+    "lon": 15.60384,
+    "city": "Krems an der Donau"
+  },
+  { "_id": 37, "name": "Krems(Land)", "lat": 48.5151184, "lon": 15.5211175 },
+  {
+    "_id": 38,
+    "name": "Kufstein",
+    "lat": 47.58237,
+    "lon": 12.16275,
+    "city": "Kufstein"
+  },
+  {
+    "_id": 39,
+    "name": "Landeck",
+    "lat": 47.14057,
+    "lon": 10.56558,
+    "city": "Landeck",
+    "zipcode": "6500"
+  },
+  {
+    "_id": 40,
+    "name": "Leibnitz",
+    "lat": 46.79043,
+    "lon": 15.56207,
+    "city": "Leibnitz"
+  },
+  {
+    "_id": 41,
+    "name": "Leoben",
+    "lat": 47.37639,
+    "lon": 15.09113,
+    "city": "Leoben",
+    "zipcode": "8700"
+  },
+  {
+    "_id": 42,
+    "name": "Lienz",
+    "lat": 46.82769,
+    "lon": 12.76272,
+    "city": "Lienz"
+  },
+  {
+    "_id": 43,
+    "name": "Liezen (inkl. Gröbming)",
+    "lat": 47.4444782,
+    "lon": 13.9018725,
+    "city": "Gröbming",
+    "zipcode": "8962"
+  },
+  {
+    "_id": 44,
+    "name": "Lilienfeld",
+    "lat": 48.0180638,
+    "lon": 15.5945498,
+    "city": "Lilienfeld",
+    "zipcode": "3180"
+  },
+  {
+    "_id": 45,
+    "name": "Linz(Stadt)",
+    "lat": 48.30694,
+    "lon": 14.28583,
+    "city": "Linz"
+  },
+  { "_id": 46, "name": "Linz-Land", "lat": 48.1679636, "lon": 14.2926786 },
+  {
+    "_id": 47,
+    "name": "Mattersburg",
+    "lat": 47.73625,
+    "lon": 16.39663,
+    "city": "Mattersburg",
+    "zipcode": "7210"
+  },
+  {
+    "_id": 48,
+    "name": "Melk",
+    "lat": 48.22647,
+    "lon": 15.34996,
+    "city": "Melk",
+    "zipcode": "3390"
+  },
+  {
+    "_id": 49,
+    "name": "Mistelbach",
+    "lat": 48.56742999999999,
+    "lon": 16.5722,
+    "city": "Mistelbach"
+  },
+  {
+    "_id": 50,
+    "name": "Mödling",
+    "lat": 48.08255,
+    "lon": 16.2869,
+    "city": "Mödling"
+  },
+  {
+    "_id": 51,
+    "name": "Murau",
+    "lat": 47.11304,
+    "lon": 14.16904,
+    "city": "Murau",
+    "zipcode": "8850"
+  },
+  { "_id": 52, "name": "Murtal", "lat": 47.1687763, "lon": 14.6600396 },
+  {
+    "_id": 53,
+    "name": "Neunkirchen",
+    "lat": 47.72607,
+    "lon": 16.08121,
+    "city": "Neunkirchen",
+    "zipcode": "2620"
+  },
+  {
+    "_id": 54,
+    "name": "Neusiedl am See",
+    "lat": 47.94736,
+    "lon": 16.84537,
+    "city": "Neusiedl am See",
+    "zipcode": "7100"
+  },
+  {
+    "_id": 55,
+    "name": "Oberpullendorf",
+    "lat": 47.49497,
+    "lon": 16.50879,
+    "city": "Oberpullendorf"
+  },
+  {
+    "_id": 56,
+    "name": "Oberwart",
+    "lat": 47.29481999999999,
+    "lon": 16.19914,
+    "city": "Oberwart",
+    "zipcode": "7400"
+  },
+  {
+    "_id": 57,
+    "name": "Perg",
+    "lat": 48.24992,
+    "lon": 14.63474,
+    "city": "Perg"
+  },
+  {
+    "_id": 58,
+    "name": "Reutte",
+    "lat": 47.48878999999999,
+    "lon": 10.71865,
+    "city": "Reutte"
+  },
+  {
+    "_id": 59,
+    "name": "Ried im Innkreis",
+    "lat": 48.21272,
+    "lon": 13.49272,
+    "city": "Ried im Innkreis"
+  },
+  {
+    "_id": 60,
+    "name": "Rohrbach",
+    "lat": 48.5724264,
+    "lon": 13.9892409,
+    "city": "Rohrbach",
+    "zipcode": "4150"
+  },
+  {
+    "_id": 61,
+    "name": "Salzburg(Stadt)",
+    "lat": 47.80949,
+    "lon": 13.05501,
+    "city": "Salzburg"
+  },
+  {
+    "_id": 62,
+    "name": "Salzburg-Umgebung",
+    "lat": 47.8394807,
+    "lon": 13.1750587
+  },
+  {
+    "_id": 63,
+    "name": "Sankt Johann im Pongau",
+    "lat": 47.34892,
+    "lon": 13.20419,
+    "city": "Saint Johann im Pongau"
+  },
+  {
+    "_id": 64,
+    "name": "Sankt Pölten(Land)",
+    "lat": 48.1531837,
+    "lon": 15.7737047
+  },
+  {
+    "_id": 65,
+    "name": "Sankt Pölten(Stadt)",
+    "lat": 48.20353,
+    "lon": 15.63817,
+    "city": "Saint Pölten"
+  },
+  {
+    "_id": 66,
+    "name": "Sankt Veit an der Glan",
+    "lat": 46.76748,
+    "lon": 14.36151,
+    "city": "Sankt Veit an der Glan"
+  },
+  {
+    "_id": 67,
+    "name": "Schärding",
+    "lat": 48.46051,
+    "lon": 13.43268,
+    "city": "Schärding"
+  },
+  {
+    "_id": 68,
+    "name": "Scheibbs",
+    "lat": 48.00804,
+    "lon": 15.16781,
+    "city": "Scheibbs"
+  },
+  {
+    "_id": 69,
+    "name": "Schwaz",
+    "lat": 47.3484102,
+    "lon": 11.707729,
+    "city": "Schwaz"
+  },
+  {
+    "_id": 70,
+    "name": "Spittal an der Drau",
+    "lat": 46.79968,
+    "lon": 13.4928,
+    "city": "Spittal an der Drau"
+  },
+  {
+    "_id": 71,
+    "name": "Steyr(Stadt)",
+    "lat": 48.05009,
+    "lon": 14.41827,
+    "city": "Steyr"
+  },
+  { "_id": 72, "name": "Steyr-Land", "lat": 47.9159873, "lon": 14.5224199 },
+  {
+    "_id": 73,
+    "name": "Südoststeiermark",
+    "lat": 46.8885229,
+    "lon": 15.8936247
+  },
+  {
+    "_id": 74,
+    "name": "Tamsweg",
+    "lat": 47.12954999999999,
+    "lon": 13.81036,
+    "city": "Tamsweg",
+    "zipcode": "5580"
+  },
+  {
+    "_id": 75,
+    "name": "Tulln",
+    "lat": 48.3314949,
+    "lon": 16.060737,
+    "city": "Tulln",
+    "zipcode": "3430"
+  },
+  {
+    "_id": 76,
+    "name": "Urfahr-Umgebung",
+    "lat": 48.4392995,
+    "lon": 14.2368317
+  },
+  { "_id": 77, "name": "Villach Land", "lat": 46.666381, "lon": 13.677109 },
+  {
+    "_id": 78,
+    "name": "Villach Stadt",
+    "lat": 46.60856,
+    "lon": 13.85062,
+    "city": "Villach"
+  },
+  {
+    "_id": 79,
+    "name": "Vöcklabruck",
+    "lat": 48.00334,
+    "lon": 13.65613,
+    "city": "Vöcklabruck"
+  },
+  {
+    "_id": 80,
+    "name": "Voitsberg",
+    "lat": 47.043268,
+    "lon": 15.1536329,
+    "city": "Voitsberg",
+    "zipcode": "8570"
+  },
+  {
+    "_id": 81,
+    "name": "Völkermarkt",
+    "lat": 46.66207,
+    "lon": 14.63359,
+    "city": "Völkermarkt"
+  },
+  {
+    "_id": 82,
+    "name": "Waidhofen an der Thaya",
+    "lat": 48.81547,
+    "lon": 15.2833,
+    "city": "Waidhofen an der Thaya",
+    "zipcode": "3830"
+  },
+  {
+    "_id": 83,
+    "name": "Waidhofen an der Ybbs(Stadt)",
+    "lat": 47.96023,
+    "lon": 14.77283,
+    "city": "Waidhofen an der Ybbs"
+  },
+  {
+    "_id": 84,
+    "name": "Weiz",
+    "lat": 47.21717,
+    "lon": 15.62297,
+    "city": "Weiz",
+    "zipcode": "8160"
+  },
+  {
+    "_id": 85,
+    "name": "Wels(Stadt)",
+    "lat": 48.16542,
+    "lon": 14.03664,
+    "city": "Wels"
+  },
+  { "_id": 86, "name": "Wels-Land", "lat": 48.0861783, "lon": 13.9750791 },
+  {
+    "_id": 87,
+    "name": "Wien(Stadt)",
+    "lat": 48.2081743,
+    "lon": 16.3738189,
+    "city": "Vienna"
+  },
+  {
+    "_id": 88,
+    "name": "Wiener Neustadt(Land)",
+    "lat": 47.8380251,
+    "lon": 16.1327874
+  },
+  {
+    "_id": 89,
+    "name": "Wiener Neustadt(Stadt)",
+    "lat": 47.80278999999999,
+    "lon": 16.23318,
+    "city": "Wiener Neustadt"
+  },
+  {
+    "_id": 90,
+    "name": "Wolfsberg",
+    "lat": 46.8401,
+    "lon": 14.84277,
+    "city": "Wolfsberg"
+  },
+  {
+    "_id": 91,
+    "name": "Zell am See",
+    "lat": 47.32351999999999,
+    "lon": 12.79685,
+    "city": "Zell am See",
+    "zipcode": "5700"
+  },
+  {
+    "_id": 92,
+    "name": "Zwettl",
+    "lat": 48.6058353,
+    "lon": 15.1662692,
+    "city": "Zwettl",
+    "zipcode": "3910"
+  }
+]

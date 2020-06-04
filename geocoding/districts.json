@@ -1,0 +1,653 @@
+[
+  {
+    "Bezirk": "Amstetten",
+    "Anzahl": "300",
+    "Anzahl_Inzidenz": "258,366777477307",
+    "GKZ": "305",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Baden",
+    "Anzahl": "174",
+    "Anzahl_Inzidenz": "119,012605760484",
+    "GKZ": "306",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Bludenz",
+    "Anzahl": "257",
+    "Anzahl_Inzidenz": "403,365037511379",
+    "GKZ": "801",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Braunau am Inn",
+    "Anzahl": "133",
+    "Anzahl_Inzidenz": "127,384874722243",
+    "GKZ": "404",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Bregenz",
+    "Anzahl": "277",
+    "Anzahl_Inzidenz": "206,127263121079",
+    "GKZ": "802",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Bruck an der Leitha",
+    "Anzahl": "112",
+    "Anzahl_Inzidenz": "109,793157533575",
+    "GKZ": "307",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Bruck-Mürzzuschlag",
+    "Anzahl": "52",
+    "Anzahl_Inzidenz": "52,5337428271236",
+    "GKZ": "621",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Deutschlandsberg",
+    "Anzahl": "49",
+    "Anzahl_Inzidenz": "80,564278785288",
+    "GKZ": "603",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Dornbirn",
+    "Anzahl": "153",
+    "Anzahl_Inzidenz": "171,830954279489",
+    "GKZ": "803",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Eferding",
+    "Anzahl": "53",
+    "Anzahl_Inzidenz": "159,850404150078",
+    "GKZ": "405",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Eisenstadt(Stadt)",
+    "Anzahl": "19",
+    "Anzahl_Inzidenz": "129,808020769283",
+    "GKZ": "101",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Eisenstadt-Umgebung",
+    "Anzahl": "23",
+    "Anzahl_Inzidenz": "53,5793323549281",
+    "GKZ": "103",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Feldkirch",
+    "Anzahl": "214",
+    "Anzahl_Inzidenz": "199,70324471113",
+    "GKZ": "804",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Feldkirchen",
+    "Anzahl": "15",
+    "Anzahl_Inzidenz": "50,1052209640244",
+    "GKZ": "210",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Freistadt",
+    "Anzahl": "120",
+    "Anzahl_Inzidenz": "180,123384518395",
+    "GKZ": "406",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Gänserndorf",
+    "Anzahl": "102",
+    "Anzahl_Inzidenz": "98,3739366934784",
+    "GKZ": "308",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Gmünd",
+    "Anzahl": "14",
+    "Anzahl_Inzidenz": "38,0714110896582",
+    "GKZ": "309",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Gmunden",
+    "Anzahl": "73",
+    "Anzahl_Inzidenz": "71,8284775314619",
+    "GKZ": "407",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Graz(Stadt)",
+    "Anzahl": "471",
+    "Anzahl_Inzidenz": "163,085254461472",
+    "GKZ": "601",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Graz-Umgebung",
+    "Anzahl": "248",
+    "Anzahl_Inzidenz": "160,767535329962",
+    "GKZ": "606",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Grieskirchen",
+    "Anzahl": "74",
+    "Anzahl_Inzidenz": "114,336923100694",
+    "GKZ": "408",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Güssing",
+    "Anzahl": "24",
+    "Anzahl_Inzidenz": "93,0340737295034",
+    "GKZ": "104",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Hallein",
+    "Anzahl": "69",
+    "Anzahl_Inzidenz": "114,287607248153",
+    "GKZ": "502",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Hartberg-Fürstenfeld",
+    "Anzahl": "318",
+    "Anzahl_Inzidenz": "350,908167994527",
+    "GKZ": "622",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Hermagor",
+    "Anzahl": "5",
+    "Anzahl_Inzidenz": "27,4363476733977",
+    "GKZ": "203",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Hollabrunn",
+    "Anzahl": "37",
+    "Anzahl_Inzidenz": "72,7515828384915",
+    "GKZ": "310",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Horn",
+    "Anzahl": "62",
+    "Anzahl_Inzidenz": "199,421035702798",
+    "GKZ": "311",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Imst",
+    "Anzahl": "294",
+    "Anzahl_Inzidenz": "489,543093113094",
+    "GKZ": "702",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Innsbruck-Land",
+    "Anzahl": "390",
+    "Anzahl_Inzidenz": "217,490714819483",
+    "GKZ": "703",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Innsbruck-Stadt",
+    "Anzahl": "409",
+    "Anzahl_Inzidenz": "309,590492771175",
+    "GKZ": "701",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Jennersdorf",
+    "Anzahl": "10",
+    "Anzahl_Inzidenz": "58,5960389077698",
+    "GKZ": "105",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Kirchdorf an der Krems",
+    "Anzahl": "44",
+    "Anzahl_Inzidenz": "77,374881299898",
+    "GKZ": "409",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Kitzbühel",
+    "Anzahl": "368",
+    "Anzahl_Inzidenz": "576,071132261549",
+    "GKZ": "704",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Klagenfurt Land",
+    "Anzahl": "42",
+    "Anzahl_Inzidenz": "70,2341137123746",
+    "GKZ": "204",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Klagenfurt Stadt",
+    "Anzahl": "91",
+    "Anzahl_Inzidenz": "90,2625549262525",
+    "GKZ": "201",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Korneuburg",
+    "Anzahl": "170",
+    "Anzahl_Inzidenz": "187,041336135286",
+    "GKZ": "312",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Krems an der Donau(Stadt)",
+    "Anzahl": "40",
+    "Anzahl_Inzidenz": "160,797555877151",
+    "GKZ": "301",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Krems(Land)",
+    "Anzahl": "157",
+    "Anzahl_Inzidenz": "277,404763587533",
+    "GKZ": "313",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Kufstein",
+    "Anzahl": "523",
+    "Anzahl_Inzidenz": "476,833026385369",
+    "GKZ": "705",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Landeck",
+    "Anzahl": "993",
+    "Anzahl_Inzidenz": "2238,40223614805",
+    "GKZ": "706",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Leibnitz",
+    "Anzahl": "184",
+    "Anzahl_Inzidenz": "223,073565782455",
+    "GKZ": "610",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Leoben",
+    "Anzahl": "25",
+    "Anzahl_Inzidenz": "41,6250416250416",
+    "GKZ": "611",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Lienz",
+    "Anzahl": "153",
+    "Anzahl_Inzidenz": "313,826841425143",
+    "GKZ": "707",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Liezen (inkl. Gröbming)",
+    "Anzahl": "89",
+    "Anzahl_Inzidenz": "111,387842455038",
+    "GKZ": "612",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Lilienfeld",
+    "Anzahl": "46",
+    "Anzahl_Inzidenz": "178,211684487835",
+    "GKZ": "314",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Linz(Stadt)",
+    "Anzahl": "316",
+    "Anzahl_Inzidenz": "153,60236430981",
+    "GKZ": "401",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Linz-Land",
+    "Anzahl": "210",
+    "Anzahl_Inzidenz": "139,745662893534",
+    "GKZ": "410",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Mattersburg",
+    "Anzahl": "53",
+    "Anzahl_Inzidenz": "132,748904195366",
+    "GKZ": "106",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Melk",
+    "Anzahl": "172",
+    "Anzahl_Inzidenz": "220,620302198507",
+    "GKZ": "315",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Mistelbach",
+    "Anzahl": "146",
+    "Anzahl_Inzidenz": "193,421035199979",
+    "GKZ": "316",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Mödling",
+    "Anzahl": "191",
+    "Anzahl_Inzidenz": "160,506899275618",
+    "GKZ": "317",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Murau",
+    "Anzahl": "7",
+    "Anzahl_Inzidenz": "25,3082179399111",
+    "GKZ": "614",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Murtal",
+    "Anzahl": "32",
+    "Anzahl_Inzidenz": "44,4419754458086",
+    "GKZ": "620",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Neunkirchen",
+    "Anzahl": "199",
+    "Anzahl_Inzidenz": "230,615011994298",
+    "GKZ": "318",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Neusiedl am See",
+    "Anzahl": "56",
+    "Anzahl_Inzidenz": "94,0354648038689",
+    "GKZ": "107",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Oberpullendorf",
+    "Anzahl": "24",
+    "Anzahl_Inzidenz": "63,9778210220457",
+    "GKZ": "108",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Oberwart",
+    "Anzahl": "133",
+    "Anzahl_Inzidenz": "245,950144241438",
+    "GKZ": "109",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Perg",
+    "Anzahl": "253",
+    "Anzahl_Inzidenz": "369,564264742401",
+    "GKZ": "411",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Reutte",
+    "Anzahl": "57",
+    "Anzahl_Inzidenz": "174,471992653811",
+    "GKZ": "708",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Ried im Innkreis",
+    "Anzahl": "45",
+    "Anzahl_Inzidenz": "73,5246062348866",
+    "GKZ": "412",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Rohrbach",
+    "Anzahl": "153",
+    "Anzahl_Inzidenz": "270,68148043309",
+    "GKZ": "413",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Salzburg(Stadt)",
+    "Anzahl": "134",
+    "Anzahl_Inzidenz": "86,8939310425326",
+    "GKZ": "501",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Salzburg-Umgebung",
+    "Anzahl": "201",
+    "Anzahl_Inzidenz": "131,992829046303",
+    "GKZ": "503",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Sankt Johann im Pongau",
+    "Anzahl": "434",
+    "Anzahl_Inzidenz": "538,641976840877",
+    "GKZ": "504",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Sankt Pölten(Land)",
+    "Anzahl": "267",
+    "Anzahl_Inzidenz": "203,748359329691",
+    "GKZ": "319",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Sankt Pölten(Stadt)",
+    "Anzahl": "90",
+    "Anzahl_Inzidenz": "163,505559189012",
+    "GKZ": "302",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Sankt Veit an der Glan",
+    "Anzahl": "52",
+    "Anzahl_Inzidenz": "95,3166529190725",
+    "GKZ": "205",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Schärding",
+    "Anzahl": "58",
+    "Anzahl_Inzidenz": "101,209276353674",
+    "GKZ": "414",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Scheibbs",
+    "Anzahl": "103",
+    "Anzahl_Inzidenz": "248,774243412313",
+    "GKZ": "320",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Schwaz",
+    "Anzahl": "352",
+    "Anzahl_Inzidenz": "419,68213847126",
+    "GKZ": "709",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Spittal an der Drau",
+    "Anzahl": "42",
+    "Anzahl_Inzidenz": "55,1970666701712",
+    "GKZ": "206",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Steyr(Stadt)",
+    "Anzahl": "62",
+    "Anzahl_Inzidenz": "162,333411881758",
+    "GKZ": "402",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Steyr-Land",
+    "Anzahl": "181",
+    "Anzahl_Inzidenz": "299,534976086849",
+    "GKZ": "415",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Südoststeiermark",
+    "Anzahl": "62",
+    "Anzahl_Inzidenz": "72,1374800749299",
+    "GKZ": "623",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Tamsweg",
+    "Anzahl": "22",
+    "Anzahl_Inzidenz": "108,267716535433",
+    "GKZ": "505",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Tulln",
+    "Anzahl": "177",
+    "Anzahl_Inzidenz": "170,567885054591",
+    "GKZ": "321",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Urfahr-Umgebung",
+    "Anzahl": "282",
+    "Anzahl_Inzidenz": "329,805274545348",
+    "GKZ": "416",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Villach Land",
+    "Anzahl": "48",
+    "Anzahl_Inzidenz": "74,2252737056968",
+    "GKZ": "207",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Villach Stadt",
+    "Anzahl": "23",
+    "Anzahl_Inzidenz": "36,9519464036117",
+    "GKZ": "202",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Vöcklabruck",
+    "Anzahl": "107",
+    "Anzahl_Inzidenz": "78,5303809824371",
+    "GKZ": "417",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Voitsberg",
+    "Anzahl": "106",
+    "Anzahl_Inzidenz": "207,189069799261",
+    "GKZ": "616",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Völkermarkt",
+    "Anzahl": "54",
+    "Anzahl_Inzidenz": "128,945985959215",
+    "GKZ": "208",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Waidhofen an der Thaya",
+    "Anzahl": "73",
+    "Anzahl_Inzidenz": "281,983930778739",
+    "GKZ": "322",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Waidhofen an der Ybbs(Stadt)",
+    "Anzahl": "25",
+    "Anzahl_Inzidenz": "222,005150519492",
+    "GKZ": "303",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Weiz",
+    "Anzahl": "199",
+    "Anzahl_Inzidenz": "220,271631449033",
+    "GKZ": "617",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Wels(Stadt)",
+    "Anzahl": "58",
+    "Anzahl_Inzidenz": "93,9621235439921",
+    "GKZ": "403",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Wels-Land",
+    "Anzahl": "79",
+    "Anzahl_Inzidenz": "108,080006566886",
+    "GKZ": "418",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Wien(Stadt)",
+    "Anzahl": "3306",
+    "Anzahl_Inzidenz": "174,230075399567",
+    "GKZ": "900",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Wiener Neustadt(Land)",
+    "Anzahl": "87",
+    "Anzahl_Inzidenz": "111,551332846098",
+    "GKZ": "323",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Wiener Neustadt(Stadt)",
+    "Anzahl": "56",
+    "Anzahl_Inzidenz": "123,683106212867",
+    "GKZ": "304",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Wolfsberg",
+    "Anzahl": "44",
+    "Anzahl_Inzidenz": "83,4502901794181",
+    "GKZ": "209",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Zell am See",
+    "Anzahl": "360",
+    "Anzahl_Inzidenz": "411,607326610414",
+    "GKZ": "506",
+    "Timestamp": "2020-06-04T22:00:00"
+  },
+  {
+    "Bezirk": "Zwettl",
+    "Anzahl": "73",
+    "Anzahl_Inzidenz": "172,895646819194",
+    "GKZ": "325",
+    "Timestamp": "2020-06-04T22:00:00"
+  }
+]
