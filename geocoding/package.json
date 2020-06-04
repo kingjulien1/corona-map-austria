@@ -1,0 +1,13 @@
+{
+  "name": "geocoding",
+  "version": "1.0.0",
+  "description": "mapping position values (lat,lng) to adress (of districts)",
+  "main": "index.js",
+  "repository": "https://github.com/julian-blaschke/corona-map-austria",
+  "author": "Julian Blaschke",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "node-geocoder": "^3.27.0"
+  }
+}
